@@ -14,9 +14,13 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/cover.webp" width="800" alt="抽象封面：一条人声波形穿过光环，化作可重复使用的多层声线。由 Beatra AI 生成。"></p>
+
+*抽象封面：一条人声波形穿过光环，化作可重复使用的多层声线。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.0 |
+| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.1 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voice-cloning-studio) 自动发布，问题请到那里反馈。
 
@@ -40,6 +44,22 @@ gh skill install beatra-ai/ai-voice-cloning-skill voice-cloning-studio
 
 ```text
 从 https://github.com/beatra-ai/ai-voice-cloning-skill 安装 voice-cloning-studio skill（目录 skills/voice-cloning-studio），然后按它的 SKILL.md 连接我的 Beatra 账号。
+```
+
+## 效果示例
+
+<p align="center"><img src="assets/cover.webp" width="800" alt="抽象封面：一条人声波形穿过光环，化作可重复使用的多层声线。由 Beatra AI 生成。"></p>
+
+[▶ 试听（MP3）](assets/sample.mp3)
+
+*用一段 23 秒的合成预设音色朗读（此处截取前 8 秒）克隆出名为 Harbor Narrator 的可复用自定义音色，随后是用新音色做的 11 秒试读。由 Beatra AI 生成。*
+
+提示词：
+
+```text
+Source script: Every harbor town keeps its own kind of morning. The fishing boats slip out before sunrise, the gulls argue over the pier, and the café on the corner props its door open to let the bread smell drift toward the water. By eight o'clock, the tide has turned, the ferry horn sounds twice, and the whole waterfront settles into an easy, unhurried rhythm.
+
+Test reading script: Hello, and welcome back to the Lantern Lane course. In today's lesson, we'll plan a simple weekly routine, one small step at a time. Let's begin.
 ```
 
 ## 你能得到什么

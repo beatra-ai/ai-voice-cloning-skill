@@ -14,9 +14,13 @@ Create a reusable personal or brand voice from a clean audio sample, give it a m
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/cover.webp" width="800" alt="Abstract cover showing a single voice waveform passing through a ring and returning as a reusable layered voice. AI-generated with Beatra."></p>
+
+*Abstract cover showing a single voice waveform passing through a ring and returning as a reusable layered voice. AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.0 |
+| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.1 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voice-cloning-studio). Report issues there.
 
@@ -41,6 +45,22 @@ Or paste this into your agent:
 
 ```text
 Install the voice-cloning-studio skill from https://github.com/beatra-ai/ai-voice-cloning-skill (folder skills/voice-cloning-studio), then follow its SKILL.md to connect my Beatra account.
+```
+
+## Examples
+
+<p align="center"><img src="assets/cover.webp" width="800" alt="Abstract cover showing a single voice waveform passing through a ring and returning as a reusable layered voice. AI-generated with Beatra."></p>
+
+[▶ Listen (MP3)](assets/sample.mp3)
+
+*A 23-second synthetic preset-voice reading (first 8 seconds shown) was cloned into a reusable custom voice named Harbor Narrator, followed by an 11-second test reading in that new voice. AI-generated with Beatra.*
+
+Prompt:
+
+```text
+Source script: Every harbor town keeps its own kind of morning. The fishing boats slip out before sunrise, the gulls argue over the pier, and the café on the corner props its door open to let the bread smell drift toward the water. By eight o'clock, the tide has turned, the ferry horn sounds twice, and the whole waterfront settles into an easy, unhurried rhythm.
+
+Test reading script: Hello, and welcome back to the Lantern Lane course. In today's lesson, we'll plan a simple weekly routine, one small step at a time. Let's begin.
 ```
 
 ## What you get
