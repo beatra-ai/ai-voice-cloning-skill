@@ -20,7 +20,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.4 |
+| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.7 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voice-cloning-studio) 自动发布，问题请到那里反馈。
 
@@ -92,10 +92,11 @@ Test reading script: Hello, and welcome back to the Lantern Lane course. In toda
 
 用一段有代表性的短文案试听清晰度、读音、节奏与语气，再把有名字的音色用于更大的口播项目。
 
-## 更新
+## 更新与安全
 
-安装后的 skill 每天最多检查一次新版本，替换前先校验官方归档，任何一步失败都不会动你已安装的版本。
-随时可以关闭，见 skill 内的 `references/automatic-updates-and-safety.md`。
+自 2026 年 10 月的版本起，本 skill 不再包含自更新程序：它只运行你安装的文件，从不自行替换。
+请用安装时的工具更新——`npx skills update voice-cloning-studio` 或 `gh skill update voice-cloning-studio`。
+详见 skill 内的 `references/updates-and-security.md`。
 
 ## 许可证
 

@@ -20,7 +20,7 @@ Create a reusable personal or brand voice from a clean audio sample, give it a m
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.4 |
+| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.7 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voice-cloning-studio). Report issues there.
 
@@ -93,12 +93,12 @@ After a successful creation, the named voice can be selected again for future na
 
 Use a short representative text to hear clarity, pace, pronunciation, and tone before applying the named voice to a larger spoken project.
 
-## Updates
+## Updates and security
 
-Each installed skill checks for a new version at most once a day, verifies the
-official archive before replacing itself, and leaves your installation untouched
-if anything fails. Turn it off at any time — see
-`references/automatic-updates-and-safety.md` inside the skill.
+Since the 2026-10 release, this skill contains no self-updater: it runs only the
+files you installed and never replaces them on its own. Update it with the tool
+you installed it with — `npx skills update voice-cloning-studio` or `gh skill update voice-cloning-studio`.
+Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
