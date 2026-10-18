@@ -2,7 +2,7 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-Create a reusable personal or brand voice from a clean audio sample, give it a memorable name, and hear it in a short test reading, from inside Claude Code, Codex, or OpenClaw.
+Create a reusable personal or brand voice from a clean audio sample, give it a memorable name, and hear it in a short test reading, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
 > [!IMPORTANT]
 > Rendering needs a [Beatra](https://beatra.ai) account and uses credits. The skill itself is free to install.
@@ -10,9 +10,10 @@ Create a reusable personal or brand voice from a clean audio sample, give it a m
 | Question | Answer |
 | --- | --- |
 | **What it does** | Create a reusable personal or brand voice from a clean audio sample, give it a memorable name, and hear it in a short test reading. |
+| **Models** | MiniMax Voice Clone, MiniMax Speech 2.8 HD, MiniMax Speech 2.8 Turbo |
 | **Requirements** | Python 3.10+ and an agent that loads `SKILL.md` |
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
-| **Works with** | Claude Code, Codex, OpenClaw |
+| **Works with** | Claude Code, Cursor, Codex, Windsurf, Cline, OpenClaw |
 
 <p align="center"><img src="assets/cover.webp" width="800" alt="Abstract cover showing a single voice waveform passing through a ring and returning as a reusable layered voice. AI-generated with Beatra."></p>
 
@@ -20,7 +21,7 @@ Create a reusable personal or brand voice from a clean audio sample, give it a m
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.8 |
+| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.9 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voice-cloning-studio). Report issues there.
 
@@ -39,7 +40,8 @@ gh skill install beatra-ai/ai-voice-cloning-skill voice-cloning-studio
 ```
 
 Or clone this repository and copy `skills/voice-cloning-studio` into `~/.claude/skills/` for Claude Code,
-`~/.agents/skills/` for Codex, or `~/.openclaw/skills/` for OpenClaw.
+`~/.cursor/skills/` for Cursor, `~/.agents/skills/` for Codex, `~/.codeium/windsurf/skills/` for Windsurf,
+`~/.cline/skills/` for Cline, or `~/.openclaw/skills/` for OpenClaw.
 
 Or paste this into your agent:
 
@@ -65,7 +67,7 @@ Test reading script: Hello, and welcome back to the Lantern Lane course. In toda
 
 ## Technical Specifications & Output Limits
 
-As of 2026-10-16. Live list: https://docs.beatra.ai/en/docs/models
+As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
 
 - **Uploads** — up to 100 MB per file; the per-model input limits below also apply
 - **Voice cloning** — 1 model (MiniMax Voice Clone); sample 10–300 s, up to 20 MB; consent attestation required
@@ -74,12 +76,12 @@ As of 2026-10-16. Live list: https://docs.beatra.ai/en/docs/models
 
 ## Why use Beatra instead of calling model APIs directly
 
-- **One account for every model this skill uses** — Voice cloning 1; Text to speech 2 (as of 2026-10-16), behind one Beatra sign-in; no keys from individual model providers to manage.
+- **One account for every model this skill uses** — Voice cloning 1; Text to speech 2 (MiniMax Voice Clone, MiniMax Speech 2.8 HD, MiniMax Speech 2.8 Turbo) (as of 2026-10-18), behind one Beatra sign-in; no keys from individual model providers to manage.
 - **You decide what gets paid for** — Paid renders run only when you ask for that exact render or approve its card, which shows the live credit estimate.
 - **Direction before rendering** — the skill plans, directs, and reviews the work, then renders it on Beatra.
 - **Files you can verify** — every file under `skills/` matches the release archive on cdn.beatra.ai byte for byte, checked by SHA-256 before each push.
 - **Updates you control** — no self-updater; update with the tool you installed it with.
-- **Runs in your agent** — Claude Code, Codex, OpenClaw.
+- **Runs in your agent** — Claude Code, Cursor, Codex, Windsurf, Cline, OpenClaw.
 
 ## What you get
 
