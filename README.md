@@ -7,7 +7,7 @@ English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
 Create a reusable personal or brand voice from a clean audio sample, give it a memorable name, and hear it in a short test reading, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
 > [!IMPORTANT]
-> Rendering needs a [Beatra](https://beatra.ai) account and uses credits. The skill itself is free to install.
+> Rendering needs a [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-voice-cloning-skill) account and uses credits. The skill itself is free to install.
 
 | Question | Answer |
 | --- | --- |
@@ -23,7 +23,7 @@ Create a reusable personal or brand voice from a clean audio sample, give it a m
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.2.9 |
+| [`voice-cloning-studio`](skills/voice-cloning-studio) | [SKILL.md](skills/voice-cloning-studio/SKILL.md) | 0.3.0 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voice-cloning-studio). Report issues there.
 
@@ -136,7 +136,7 @@ ClawHub.
 
 ## Links
 
-- Website — https://beatra.ai
-- Docs — https://docs.beatra.ai
+- Website — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-voice-cloning-skill
+- Docs — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-voice-cloning-skill
 - Console — https://console.beatra.ai
 - For AI agents — https://beatra.ai/llms.txt (index) · https://beatra.ai/llms-full.txt (every skill in one file)
