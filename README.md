@@ -1,6 +1,8 @@
 # AI Voice Cloning Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [AI Voiceover Generator Skill](https://github.com/beatra-ai/ai-voiceover-generator-skill)
 
 Create a reusable personal or brand voice from a clean audio sample, give it a memorable name, and hear it in a short test reading, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
@@ -56,6 +58,12 @@ Install the voice-cloning-studio skill from https://github.com/beatra-ai/ai-voic
 [▶ Listen (MP3)](assets/sample.mp3)
 
 *A 23-second synthetic preset-voice reading (first 8 seconds shown) was cloned into a reusable custom voice named Harbor Narrator, followed by an 11-second test reading in that new voice. AI-generated with Beatra.*
+
+Ask your agent:
+
+```text
+Clone the voice in ./harbor-sample.mp3 into a reusable voice named Harbor Narrator, then read this test line in it: "The lighthouse keeps its own hours, and so does the tide."
+```
 
 Prompt:
 

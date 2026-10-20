@@ -1,6 +1,8 @@
 # AI Voice Cloning Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [AI Voiceover Generator Skill](https://github.com/beatra-ai/ai-voiceover-generator-skill)
 
 用干净的语音样本创建可复用的个人或品牌声音，为音色命名，并通过短句试听清晰度、节奏与语气，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
@@ -54,6 +56,12 @@ gh skill install beatra-ai/ai-voice-cloning-skill voice-cloning-studio
 [▶ 试听（MP3）](assets/sample.mp3)
 
 *用一段 23 秒的合成预设音色朗读（此处截取前 8 秒）克隆出名为 Harbor Narrator 的可复用自定义音色，随后是用新音色做的 11 秒试读。由 Beatra AI 生成。*
+
+在你的 Agent 里这样说：
+
+```text
+把 ./harbor-sample.mp3 里的声音克隆成一个可以反复使用的音色，命名为 Harbor Narrator，然后用它读这句测试词：“The lighthouse keeps its own hours, and so does the tide.”
+```
 
 提示词：
 
