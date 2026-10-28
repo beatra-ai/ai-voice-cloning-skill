@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ai-voice-cloning-skill",
+  "description": "The Beatra AI Voice Cloning skill as a Claude Code plugin.",
+  "owner": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "plugins": [
+    {
+      "name": "voice-cloning-studio",
+      "source": "./",
+      "description": "Create a reusable personal or brand voice from a clean audio sample, give it a memorable name, and hear it in a short test reading."
+    }
+  ]
+}

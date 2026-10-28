@@ -1,0 +1,20 @@
+{
+  "name": "ai-voice-cloning-skill",
+  "interface": {
+    "displayName": "AI Voice Cloning"
+  },
+  "plugins": [
+    {
+      "name": "voice-cloning-studio",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

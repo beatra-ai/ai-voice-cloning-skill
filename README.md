@@ -35,6 +35,33 @@ With the [`skills`](https://skills.sh) CLI:
 npx skills add beatra-ai/ai-voice-cloning-skill
 ```
 
+As a Claude Code plugin:
+
+```bash
+claude plugin marketplace add beatra-ai/ai-voice-cloning-skill
+claude plugin install voice-cloning-studio@ai-voice-cloning-skill
+```
+
+As a Codex plugin:
+
+```bash
+codex plugin marketplace add beatra-ai/ai-voice-cloning-skill
+codex plugin add voice-cloning-studio@ai-voice-cloning-skill
+```
+
+As a GitHub Copilot CLI plugin:
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-voice-cloning-skill
+copilot plugin install voice-cloning-studio@ai-voice-cloning-skill
+```
+
+As a Gemini CLI extension:
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-voice-cloning-skill
+```
+
 With the GitHub CLI:
 
 ```bash

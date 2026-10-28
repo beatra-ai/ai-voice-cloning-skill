@@ -35,6 +35,33 @@
 npx skills add beatra-ai/ai-voice-cloning-skill
 ```
 
+作为 Claude Code 插件：
+
+```bash
+claude plugin marketplace add beatra-ai/ai-voice-cloning-skill
+claude plugin install voice-cloning-studio@ai-voice-cloning-skill
+```
+
+作为 Codex 插件：
+
+```bash
+codex plugin marketplace add beatra-ai/ai-voice-cloning-skill
+codex plugin add voice-cloning-studio@ai-voice-cloning-skill
+```
+
+作为 GitHub Copilot CLI 插件：
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-voice-cloning-skill
+copilot plugin install voice-cloning-studio@ai-voice-cloning-skill
+```
+
+作为 Gemini CLI 扩展：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-voice-cloning-skill
+```
+
 使用 GitHub CLI：
 
 ```bash

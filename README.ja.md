@@ -35,6 +35,33 @@
 npx skills add beatra-ai/ai-voice-cloning-skill
 ```
 
+Claude Code プラグインとして：
+
+```bash
+claude plugin marketplace add beatra-ai/ai-voice-cloning-skill
+claude plugin install voice-cloning-studio@ai-voice-cloning-skill
+```
+
+Codex プラグインとして：
+
+```bash
+codex plugin marketplace add beatra-ai/ai-voice-cloning-skill
+codex plugin add voice-cloning-studio@ai-voice-cloning-skill
+```
+
+GitHub Copilot CLI プラグインとして：
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-voice-cloning-skill
+copilot plugin install voice-cloning-studio@ai-voice-cloning-skill
+```
+
+Gemini CLI 拡張機能として：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-voice-cloning-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash

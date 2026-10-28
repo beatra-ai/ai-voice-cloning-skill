@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "voice-cloning-studio",
+  "displayName": "AI Voice Cloning",
+  "version": "0.3.1",
+  "description": "Create a reusable personal or brand voice from a clean audio sample, give it a memorable name, and hear it in a short test reading.",
+  "author": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "homepage": "https://beatra.ai/skills/voice-cloning-studio",
+  "repository": "https://github.com/beatra-ai/ai-voice-cloning-skill",
+  "license": "MIT-0",
+  "icon": "./assets/icon.png"
+}
