@@ -10,6 +10,19 @@
   "homepage": "https://beatra.ai/skills/voice-cloning-studio",
   "repository": "https://github.com/beatra-ai/ai-voice-cloning-skill",
   "license": "MIT-0",
+  "keywords": [
+    "AI voice cloning",
+    "voice cloning studio",
+    "clone my voice",
+    "custom AI voice",
+    "voice cloning software",
+    "AI voice clone",
+    "custom voice",
+    "voice clone from sample",
+    "reusable voice",
+    "voice cloning for narration",
+    "brand voice cloning"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,6 +32,13 @@
         "developerName": "Beatra AI",
         "category": "Creativity",
         "websiteURL": "https://beatra.ai/skills/voice-cloning-studio",
+        "supportURL": "https://github.com/beatra-ai/.github/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://beatra.ai/privacy",
+        "termsOfServiceURL": "https://beatra.ai/terms",
+        "defaultPrompt": [
+          "Use AI Voice Cloning Studio to make a reusable voice named Shop Host from my recording, then play a test line. Sample attached."
+        ],
+        "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
     }

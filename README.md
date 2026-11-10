@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/ai-voice-cloning-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-voice-cloning-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -100,6 +106,14 @@ Source script: Every harbor town keeps its own kind of morning. The fishing boat
 Test reading script: Hello, and welcome back to the Lantern Lane course. In today's lesson, we'll plan a simple weekly routine, one small step at a time. Let's begin.
 ```
 
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Audio — A clean single-speaker sample of your own voice or your brand's voice | MP3, WAV | 10–300 s; up to 20 MB each |
+| **Input** | Text — A display name for the voice and an optional test line | — | — |
+| **Output** | Audio — A short test reading in the new named voice, kept for later narration | MP3 | — |
+
 ## Technical Specifications & Output Limits
 
 As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
@@ -134,19 +148,19 @@ As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
 
 ### What makes a voice sample ready for cloning?
 
-Use one person speaking naturally with clear sound, low background noise, little echo, and a tone that represents the narration you want to create.
+One person speaking naturally for 10 to 300 seconds, with clear sound, low background noise, little echo, and the tone you want in later narration.
 
-### What makes a good sample?
+### What should I avoid in the sample?
 
-A clean recording with one person speaking naturally is the best starting point. Avoid music, other speakers, pronounced echo, and heavy background noise.
+Music, other speakers, strong echo, and heavy background noise.
 
 ### Can I use the voice again later?
 
-After a successful creation, the named voice can be selected again for future narration. You do not need to create a new voice merely to change a script or delivery direction.
+Yes. The named voice is saved for future narration, and any new script or delivery is read in it.
 
-### How can I preview the new voice?
+### How do I hear the new voice?
 
-Use a short representative text to hear clarity, pace, pronunciation, and tone before applying the named voice to a larger spoken project.
+In a short MP3 test reading of a line you supply, so you can hear clarity, pace, pronunciation, and tone.
 
 ## Updates and security
 
@@ -157,9 +171,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-voice-cloning-skill).
 
 ## Links
 

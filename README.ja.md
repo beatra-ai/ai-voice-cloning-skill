@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/ai-voice-cloning-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-voice-cloning-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -98,6 +104,14 @@ Source script: Every harbor town keeps its own kind of morning. The fishing boat
 Test reading script: Hello, and welcome back to the Lantern Lane course. In today's lesson, we'll plan a simple weekly routine, one small step at a time. Let's begin.
 ```
 
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | 音声：自分の声かブランドの声の、1人が話すクリアな録音 | MP3、WAV | 10〜300 秒／1 ファイル最大 20 MB |
+| **入力** | テキスト：ボイスの表示名と、任意の試聴用の一文 | — | — |
+| **出力** | 音声：新しい名前付きボイスで読んだ短い試聴（ボイスは後のナレーションに使えます） | MP3 | — |
+
 ## 技術仕様と出力上限
 
 2026-10-18 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
@@ -121,21 +135,21 @@ Test reading script: Hello, and welcome back to the Lantern Lane course. In toda
 
 ## よくある質問
 
-### 音声クローンに適したサンプルとは？
+### ボイスクローンに適した録音とは？
 
-一人が自然に話し、声が明瞭で、背景ノイズと反響が少なく、今後のナレーションの語調を表す録音が適しています。
+1人が自然に話す10〜300秒の録音で、声が明瞭で、背景ノイズと反響が少なく、今後のナレーションで出したい語調のものです。
 
-### どのようなサンプルが適していますか？
+### 録音で避けることは？
 
-一人が自然に話し、声がはっきり聞こえる録音が適しています。音楽、別の話者、強い反響、大きな背景ノイズは避けてください。
+音楽、別の話者、強い反響、大きな背景ノイズです。
 
-### 後から同じ声を使えますか？
+### 後から同じボイスを使えますか？
 
-作成に成功した後は、名前のあるその声を今後のナレーションで再び選べます。原稿や話し方を変えるために、同じ声を作り直す必要はありません。
+はい。名前付きのボイスは残り、今後のナレーションに使えます。新しい原稿や話し方も、そのボイスで読み上げます。
 
-### 作成した声をどう試し聞きできますか？
+### 作成したボイスはどう試聴できますか？
 
-代表的な短い原稿で明瞭さ、発音、テンポ、語調を聞き、名前のある声を本格的なナレーションに広げます。
+指定した短い一文を MP3 で読み上げるので、明瞭さ、発音、テンポ、語調を聞けます。
 
 ## 更新とセキュリティ
 
@@ -145,7 +159,9 @@ Test reading script: Hello, and welcome back to the Lantern Lane course. In toda
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-voice-cloning-skill)が適用されます。
 
 ## リンク
 

@@ -62,6 +62,12 @@ copilot plugin install voice-cloning-studio@ai-voice-cloning-skill
 gemini extensions install https://github.com/beatra-ai/ai-voice-cloning-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-voice-cloning-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -98,6 +104,14 @@ Source script: Every harbor town keeps its own kind of morning. The fishing boat
 Test reading script: Hello, and welcome back to the Lantern Lane course. In today's lesson, we'll plan a simple weekly routine, one small step at a time. Let's begin.
 ```
 
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 音频：一段单人清晰录音，是你自己或品牌的声音 | MP3、WAV | 10–300 秒；单个文件最大 20 MB |
+| **输入** | 文本：音色名称，以及可选的一句试听文案 | — | — |
+| **输出** | 音频：用新音色读的一段短试听，音色保留用于之后的旁白 | MP3 | — |
+
 ## 技术规格与输出限制
 
 截至 2026-10-18。实时列表：https://docs.beatra.ai/zh/docs/models
@@ -130,21 +144,21 @@ Test reading script: Hello, and welcome back to the Lantern Lane course. In toda
 
 ## 常见问题
 
-### 什么样的语音样本适合声音克隆？
+### 什么样的录音适合声音克隆？
 
-选择一位说话者自然表达、声音清楚、背景噪音低、回声少，并能代表未来旁白语气的录音。
+一个人自然说话、10 到 300 秒、声音清楚、背景噪音低、回声少，语气接近以后旁白想要的感觉。
 
-### 什么样的样本更合适？
+### 录音里要避开什么？
 
-单人自然说话、声音清晰的录音更合适。请避开音乐、其他人声、明显回声和重度背景噪音。
+音乐、其他人声、明显回声和很重的背景噪音。
 
 ### 以后还可以继续使用这个音色吗？
 
-成功创建后，可以在后续旁白中再次选择这个有名字的音色。修改文案或表达方式时，不需要重新创建同一种声音。
+可以。这个有名字的音色会保存下来，之后的新文案和不同的读法都能用它来读。
 
-### 怎样试听刚创建的音色？
+### 怎样试听刚做好的音色？
 
-用一段有代表性的短文案试听清晰度、读音、节奏与语气，再把有名字的音色用于更大的口播项目。
+用你给的一句短文案读一段 MP3 试听，听清晰度、读音、节奏和语气。
 
 ## 更新与安全
 
@@ -154,7 +168,9 @@ Test reading script: Hello, and welcome back to the Lantern Lane course. In toda
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-voice-cloning-skill)。
 
 ## 相关链接
 
